@@ -50,3 +50,7 @@ bun start --reset-cache
 ```
 
 ## ✨ Demo Preview
+
+
+https://github.com/user-attachments/assets/044032ff-721c-4d03-a22c-487b23e3be8f
+
