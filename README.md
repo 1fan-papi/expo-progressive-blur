@@ -1,50 +1,52 @@
-# Welcome to your Expo app 👋
+# 🚀 Expo Progressive Blur
 
-This is an [Expo](https://expo.dev) project created with [`create-expo-app`](https://www.npmjs.com/package/create-expo-app).
+This component recreates the modern, layered **Apple-style translucent headers** you’ll find across iOS apps like **Settings**, **Wallet**, and **Music** now entirely in **React Native**
 
-## Get started
+---
 
-1. Install dependencies
+## 🧠 Overview
 
-   ```bash
-   npm install
-   ```
+The **Progressive Blur Header** uses:
 
-2. Start the app
+- **`MaskedView`** → for applying a _gradient-based mask_ on top of the header background.
+- **`BlurView` (expo-blur)** → to add real-time iOS-like material blur.
+- **`react-native-reanimated`** → to animate the header opacity, scale, and intensity of blur as you scroll.
+- **`expo-linear-gradient`** → for the dynamic light-to-dark transitions.
+- **`easeGradient` (react-native-easing-gradient)** → for natural easing between color stops.
 
-   ```bash
-   npx expo start
-   ```
+It’s designed to feel _native_ — blending the blurred background with subtle spring animations and masked gradients that progressively reveal the content below.
 
-In the output, you'll find options to open the app in a
+## 🧩 Tech Stack
 
-- [development build](https://docs.expo.dev/develop/development-builds/introduction/)
-- [Android emulator](https://docs.expo.dev/workflow/android-studio-emulator/)
-- [iOS simulator](https://docs.expo.dev/workflow/ios-simulator/)
-- [Expo Go](https://expo.dev/go), a limited sandbox for trying out app development with Expo
+| Library                                                                                          | Purpose                    |
+| ------------------------------------------------------------------------------------------------ | -------------------------- |
+| [expo-blur](https://docs.expo.dev/versions/latest/sdk/blur-view/)                                | System material blur       |
+| [react-native-reanimated](https://docs.swmansion.com/react-native-reanimated/)                   | Scroll animations          |
+| [expo-linear-gradient](https://docs.expo.dev/versions/latest/sdk/linear-gradient/)               | Gradient overlays          |
+| [@react-native-masked-view/masked-view](https://github.com/react-native-masked-view/masked-view) | Gradient masking           |
+| [react-native-easing-gradient](https://github.com/iyegoroff/react-native-easing-gradient)        | Eased gradient transitions |
+| [expo-symbols](https://github.com/expo/expo/tree/main/packages/expo-symbols)                     | Native SF Symbols icons    |
 
-You can start developing by editing the files inside the **app** directory. This project uses [file-based routing](https://docs.expo.dev/router/introduction).
+---
 
-## Get a fresh project
+## 🖼️ Visual Concept
 
-When you're ready, run:
+🌀 As you scroll down:
+
+- The **large title** fades out.
+- The **compact header** fades in with a **soft spring**.
+- The **blur intensity** and **gradient opacity** increase progressively.
+- The masked gradient reveals the _translucent material_ underneath, creating that signature _iOS floating glass_ effect.
+
+---
+
+## ⚙️ Using
 
 ```bash
-npm run reset-project
+git clone https://github.com/rit3zh/expo-progressive-blur
+cd expo-progressive-blur
+bun install
+bun start --reset-cache
 ```
 
-This command will move the starter code to the **app-example** directory and create a blank **app** directory where you can start developing.
-
-## Learn more
-
-To learn more about developing your project with Expo, look at the following resources:
-
-- [Expo documentation](https://docs.expo.dev/): Learn fundamentals, or go into advanced topics with our [guides](https://docs.expo.dev/guides).
-- [Learn Expo tutorial](https://docs.expo.dev/tutorial/introduction/): Follow a step-by-step tutorial where you'll create a project that runs on Android, iOS, and the web.
-
-## Join the community
-
-Join our community of developers creating universal apps.
-
-- [Expo on GitHub](https://github.com/expo/expo): View our open source platform and contribute.
-- [Discord community](https://chat.expo.dev): Chat with Expo users and ask questions.
+## ✨ Demo Preview
